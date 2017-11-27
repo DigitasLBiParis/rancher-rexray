@@ -1,0 +1,4 @@
+.catalog:
+  name: "REX-Ray"
+  version: "v0.3.2"
+  description: "REX-Ray persistent storage"

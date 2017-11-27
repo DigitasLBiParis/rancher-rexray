@@ -1,6 +1,6 @@
 
 rexray:
-    image: gdwornicki/rancher-rexray
+    image: dockerhub.sandbox.pfex.digitas.fr/pfex/rancher-rexray
     stdin_open: true
     tty: true
     privileged: true
@@ -12,4 +12,3 @@ rexray:
     labels:
         io.rancher.container.pull_image: always
         io.rancher.container.dns: true
-        io.rancher.scheduler.affinity:host_label: rexray.scaleio=true
