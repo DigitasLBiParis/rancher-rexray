@@ -1,6 +1,6 @@
 
 rexray:
-    image: dockerhub.sandbox.pfex.digitas.fr/pfex/rancher-rexray
+    image: rancher/storage-rbd:v0.8.9
     stdin_open: true
     tty: true
     privileged: true
