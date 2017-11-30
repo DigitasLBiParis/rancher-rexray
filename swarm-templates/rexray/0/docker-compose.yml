@@ -5,6 +5,12 @@ rexray:
     tty: true
     privileged: true
     net: host
+    volumes:
+    - /run:/run
+    - /var/run:/var/run
+    - /dev:/host/dev
+    - /var/lib/rancher/volumes:/var/lib/rancher/volumes:shared
+    - /var/run/docker.sock:/var/run/docker.sock
     environment:
         STACK_NAME: ${SCALEIO_STACK_NAME}
         SYSTEM_ID: ${SCALEIO_SYSTEM_ID}
