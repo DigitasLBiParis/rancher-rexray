@@ -1,6 +1,6 @@
 
 rexray:
-    image: rancher/storage-rbd:v0.8.9
+    image: rancher/storage-rbd:v0.8.6
     stdin_open: true
     tty: true
     privileged: true
